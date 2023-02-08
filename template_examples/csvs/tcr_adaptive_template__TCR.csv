@@ -1,4 +1,4 @@
-"#title","Metadata file for tcr seq  [adaptive]."
+"#title","Tcrseq [adaptive] assay template"
 "#preamble","Protocol identifier","test_prism_trial_id"
 "#preamble","Assay creator","Adaptive"
 "#preamble","Sequencer platform","Adaptive"

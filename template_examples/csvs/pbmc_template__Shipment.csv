@@ -1,4 +1,4 @@
-"#title","Shipping manifest for pbmc samples"
+"#title","Biospecimen manifest for pbmc samples"
 "#preamble","Manifest id","test_prism_trial_id_PBMC"
 "#preamble","Protocol identifier","test_prism_trial_id"
 "#preamble","Assay priority","4"

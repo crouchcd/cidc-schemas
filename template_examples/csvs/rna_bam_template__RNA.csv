@@ -1,4 +1,4 @@
-"#title","Metadata file for rna expression [bam]"
+"#title","Rna expression [bam] assay template"
 "#preamble","Protocol identifier","test_prism_trial_id"
 "#preamble","Assay creator","DFCI"
 "#preamble","Enrichment method","Transcriptome capture v1"
@@ -10,3 +10,6 @@
 "#header","Cimac id","Bam file","Library yield ng","Dv200","Rqs","Rin","Quality flag"
 "#data","CTTTPP122.00","gs://local/path/to/fwd.1.1.1.bam,gs://local/path/to/fwd.1.1.1_2.bam","600","0.7","8","","1"
 "#data","CTTTPP123.00","gs://local/path/to/fwd.1.2.1.bam,gs://local/path/to/fwd.1.2.1_2.bam","","0.8","9","9","1"
+"#data","CTTTPP124.00","gs://local/path/to/fwd.1.2.4.bam","","0.4","4","4","1"
+"#data","CTTTPP125.00","gs://local/path/to/fwd.1.2.5.bam","","0.5","5","5","1"
+"#data","CTTTPP126.00","gs://local/path/to/fwd.1.2.6.bam","","0.6","6","6","1"

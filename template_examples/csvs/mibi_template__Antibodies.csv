@@ -1,0 +1,5 @@
+"#skip","Antibodies"
+"#header","Channel id","Antibody name","Scicrunch rrid","Uniprot accession number","Lot number","Dilution","Concentration value","Concentration units","Conjugated catalog number","Conjugated tag"
+"#data","CD4","CD4","AB_CD4","P000","1","1:10","10","mg","c","tag"
+"#data","CD31","CD31","AB_CD31","P001","2","1:10","11"
+"#data","CD11c","CD11c"
