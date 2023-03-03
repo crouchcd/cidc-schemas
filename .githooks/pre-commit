@@ -57,6 +57,7 @@ def main():
     if not os.path.exists("./template_examples/csvs"):
         os.makedirs("./template_examples/csvs")
 
+    # generate template_examples/csvs/
     for template_example in os.listdir("./template_examples/"):
         # remove any .csv in there, so nothing old will be left
         if template_example.endswith(".csv"):
@@ -67,13 +68,16 @@ def main():
                 print(output)
             if err:
                 os.exit(err)
-            output, err = system(
-                "git", "rm", os.path.join("./template_examples/", template_example)
+            # output, err = system(
+            #     "git", "rm", os.path.join("./template_examples/", template_example)
+            # )
+            print(
+                f"would git rm {os.path.join('./template_examples/', template_example)}"
             )
-            if output:
-                print(output)
-            if err:
-                os.exit(err)
+            # if output:
+            #     print(output)
+            # if err:
+            #     os.exit(err)
 
         # '~$___.xlsx' is something like lockfiles for Excel
         if not template_example.endswith(".xlsx") or template_example.startswith("~$"):
@@ -83,21 +87,24 @@ def main():
             "./template_examples/", template_example, "./template_examples/csvs/"
         )
         for fname in csv_fnames:
-            output, err = system("git", "add", fname)
-            if output:
-                print(output)
-            if err:
-                os.exit(err)
+            # output, err = system("git", "add", fname)
+            print(f"would git add {fname}")
+            # if output:
+            #     print(output)
+            # if err:
+            #     os.exit(err)
 
+    # generate templates/analyses/
     generate_analysis_template_schemas()
     folder = os.path.join(TEMPLATE_DIR, "analyses")
     for fname in os.listdir(folder):
         if fname.endswith("_analysis_template.json"):
-            output, err = system("git", "add", os.path.join(folder, fname))
-            if output:
-                print(output)
-            if err:
-                os.exit(err)
+            # output, err = system("git", "add", os.path.join(folder, fname))
+            print(f"would git add {os.path.join(folder, fname)}")
+            # if output:
+            #     print(output)
+            # if err:
+            #     os.exit(err)
 
 
 main()

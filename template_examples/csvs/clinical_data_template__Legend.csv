@@ -5,5 +5,5 @@
 "","Section 'Unharmonized' of tab 'Clinical data'"
 "","File name","String"
 "","File type","Enum","","E.g. 'xlsx'"
-"","Clinical data file","String","Path to a file on a user's computer."
+"","Clinical data file","String","Path to file, relative to the intake bucket."
 "","Comment","String","A text comment regarding this file."

@@ -1,4 +1,4 @@
-"#title","Metadata manifest for tumor / normal pairing for wes assay analysis."
+"#title","Metadata manifest for wes analysis pairing"
 "#preamble","Protocol identifier","test_prism_trial_id"
 
 "#skip","Pair"

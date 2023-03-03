@@ -1,4 +1,4 @@
-"#title","Metadata file for cytof_10021_9204"
+"#title","Cytof assay template"
 "#preamble","Assay run id","test_prism_trial_id_run_1"
 "#preamble","Batch id","XYZ1"
 "#preamble","Protocol identifier","test_prism_trial_id"
@@ -11,8 +11,8 @@
 "#preamble","Normalization method","Fluidigm"
 "#preamble","Debarcoding protocol","Fluidigm"
 "#preamble","Harware version","Fluidigm 3.0.2"
-"#preamble","Concatenated Spike in fcs filename"
-"#preamble","Concatenated Raw fcs filename(s)","batch1f1.fcs,batch1f2.fcs"
+"#preamble","Concatenated spike in fcs filename"
+"#preamble","Concatenated raw fcs filename(s)","batch1f1.fcs,batch1f2.fcs"
 
 "#skip","Run info","Preprocessing"
 "#header","Cimac id","Processed fcs filename","Concatenation version","Normalization version","Preprocessing_notes"

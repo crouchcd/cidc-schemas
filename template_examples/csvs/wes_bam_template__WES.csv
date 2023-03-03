@@ -1,6 +1,6 @@
-"#title","Metadata file for wes [bam]"
+"#title","Wes [bam] assay template"
 "#preamble","Protocol identifier","test_prism_trial_id"
-"#preamble","Assay creator","Mount Sinai"
+"#preamble","Assay creator","Broad"
 "#preamble","Sequencing protocol","Express Somatic Human WES (Deep Coverage) v1.1"
 "#preamble","Library kit","Hyper Prep ICE Exome Express: 1.0"
 "#preamble","Sequencer platform","Illumina - NextSeq 550"

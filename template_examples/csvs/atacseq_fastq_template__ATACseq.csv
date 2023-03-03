@@ -1,4 +1,4 @@
-"#title","Metadata file for atacseq [fastq]"
+"#title","Atacseq [fastq] assay template"
 "#preamble","Protocol identifier","test_prism_trial_id"
 "#preamble","Batch id","XYZ"
 "#preamble","Assay creator","Mount Sinai"

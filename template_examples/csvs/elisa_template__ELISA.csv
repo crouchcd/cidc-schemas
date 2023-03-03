@@ -1,4 +1,4 @@
-"#title","Metadata file for elisa"
+"#title","Elisa assay template"
 "#preamble","Protocol identifier","test_prism_trial_id"
 "#preamble","Assay creator","DFCI"
 "#preamble","Run id","test_prism_trial_id_run_1"

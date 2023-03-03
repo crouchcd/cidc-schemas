@@ -1,4 +1,4 @@
-"#title","Metadata file for nanostring"
+"#title","Nanostring assay template"
 "#preamble","Protocol identifier","test_prism_trial_id"
 "#preamble","Assay creator","DFCI"
 "#preamble","Batch id","test_batch"

@@ -1,4 +1,4 @@
-"#title","Metadata file for tcr seq  [fastq]."
+"#title","Tcrseq [fastq] assay template"
 "#preamble","Protocol identifier","test_prism_trial_id"
 "#preamble","Assay creator","Mount Sinai"
 "#preamble","Sequencer platform","Illumina - HiSeq 3000"

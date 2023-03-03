@@ -3,6 +3,6 @@
 "","Protocol identifier","String","Trial identifier used by lead organization, ie. Center for Experimental Therapeutics Program (CTEP) ID or Industry Sponsored ID.  This is usually a short identifier. Example: E4412."
 "","Assay creator","Enum","Indicates what site is filling out the assay.","E.g. 'DFCI'"
 "","Section 'Files' of tab 'Misc'"
-"","File name","String","An optional (short) name of the file"
-"","File location","String","Path to a file on a user's computer."
+"","File name","String","A (short) name of the file"
+"","File location","String","Path to file, relative to the intake bucket."
 "","Description","String","An optional long string describing the file, its purpose, and/or its content."
